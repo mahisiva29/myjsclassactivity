@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h4>javascript functions</h4>
+
+
+<p id="add"></p>
+<p id="mul"></p>
+<p id="sub"></p>
+<p id="div"></p>
+
+<script>
+
+ // var num1 = 5;
+ // var num2 = 6;
+
+function addNum(num1, num2) {
+  return num1 + num2;
+}
+document.getElementById("add").innerHTML ="The addition of the two numbers is" +" " +addNum(20,5);
+
+
+function multiNum(num1, num2) {
+  return num1 * num2;
+}
+document.getElementById("mul").innerHTML ="The multiple of the two numbers is" +" " + multiNum(20,5);
+
+function subtractNum(num1, num2) {
+  return num1 - num2;
+}
+document.getElementById("sub").innerHTML = "The subtraction of the two numbers is" +" " +subtractNum(20,5);
+
+
+function divideNum(num1, num2) {
+  return num1 / num2;
+}
+document.getElementById("div").innerHTML ="The division of the two numbers is" +" " + divideNum(20,5);
+
+
+</script>
+
+</body>
+</html>

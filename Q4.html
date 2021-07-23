@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="vol"></p>
+
+<script>
+
+function Calvolume(width, length, height){
+var vol=width*length*height;
+return vol;
+}
+
+//document.write(Calvolume(7,7,2));
+// console.log(Calvolume(7,7,2));
+document.getElementById("vol").innerHTML ="The volume of the cuboid is" +" " + Calvolume(7,7,2);
+
+</script>
+
+</body>
+</html>
